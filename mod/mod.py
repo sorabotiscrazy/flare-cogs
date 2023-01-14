@@ -59,10 +59,10 @@ class Mod(ModClass):
         self._config = Config.get_conf(self, 95932766180343808, force_registration=True)
         self._config.register_guild(
             **{
-                "kick_message": "Done. That felt good.",
-                "ban_message": "Done. That felt good.",
-                "tempban_message": "Done. Enough chaos for now.",
-                "unban_message": "Unbanned that user from this server.",
+                "kick_message": "kicked {user} 🦅",
+                "ban_message": "banned {user} 🦅",
+                "tempban_message": "tempbanned {user} 🦅",
+                "unban_message": "unbanned {user} 🦅",
             }
         )
 
