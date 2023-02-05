@@ -223,10 +223,11 @@ class Snipe(commands.Cog):
 
             embed = discord.Embed(
                 description=description,
+                author=
                 timestamp=snipe["timestamp"],
                 color=ctx.author.color,
             )
-            embed.set_footer(text=f"Sniped by: {ctx.author}")
+            embed.set_footer(text=f"")
             if author:
                 embed.set_author(name=f"{author} ({author.id})", icon_url=author.avatar_url)
             else:
