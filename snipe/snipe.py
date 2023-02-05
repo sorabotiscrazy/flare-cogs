@@ -227,7 +227,7 @@ class Snipe(commands.Cog):
                 timestamp=snipe["timestamp"],
                 color=ctx.author.color,
             )
-            embed.set_footer(text=f"")
+            embed.set_footer(text=f"Deleted ")
             if author:
                 embed.set_author(name=f"{author} ({author.id})", icon_url=author.avatar_url)
             else:
